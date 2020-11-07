@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EsPrimo</string>
+    <string name="tvTitulo">¿Es Primo?</string>
+    <string name="btnVerificar">Verificar</string>
+</resources>
