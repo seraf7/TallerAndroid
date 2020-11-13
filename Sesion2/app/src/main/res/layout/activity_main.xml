@@ -11,6 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/bryndanwrite"
         android:text="@string/tvTitulo"
         android:textSize="36sp"
         android:textStyle="bold"
@@ -21,22 +22,26 @@
         app:layout_constraintVertical_bias="0.089" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="36sp"
+        android:fontFamily="@font/bryndanwrite"
+        android:textAlignment="center"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.456" />
+        app:layout_constraintVertical_bias="0.49" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnVerificar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/boton"
+        android:fontFamily="@font/bryndanwrite"
+        android:onClick="clic"
         android:text="@string/btnVerificar"
         android:textAllCaps="false"
         android:textSize="30sp"
@@ -48,11 +53,13 @@
         app:layout_constraintVertical_bias="0.789" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/etNumero"
         android:layout_width="249dp"
         android:layout_height="48dp"
         android:background="@color/textos"
         android:ems="10"
+        android:hint="@string/hint"
+        android:importantForAutofill="no"
         android:inputType="number"
         android:maxLength="5"
         android:textAlignment="center"

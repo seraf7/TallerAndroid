@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EsPrimo</string>
+    <string name="tvTitulo">Is it prime?</string>
+    <string name="btnVerificar">Check</string>
+    <string name="valore_requerido">Value required</string>
+    <string name="error">Enter a value</string>
+    <string name="resp_inicial">"The number "</string>
+    <string name="si_primo">" IS prime"</string>
+    <string name="no_primo">" IS NOT prime"</string>
+    <string name="hint">Number</string>
+</resources>

@@ -2,4 +2,10 @@
     <string name="app_name">EsPrimo</string>
     <string name="tvTitulo">¿Es Primo?</string>
     <string name="btnVerificar">Verificar</string>
+    <string name="valore_requerido">Se require un numero</string>
+    <string name="error">No has ingresado ningun numero</string>
+    <string name="resp_inicial">El número \</string>
+    <string name="si_primo">\ SI es primo</string>
+    <string name="no_primo">\ NO es primo</string>
+    <string name="hint">Número</string>
 </resources>
