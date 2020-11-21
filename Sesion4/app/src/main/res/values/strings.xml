@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="hintNom">Nombre</string>
+    <string name="hintCta">Num. Cuenta</string>
+    <string name="strBoton">Guardar</string>
+    <string name="errorNomb">Se requiere ingresar un nombre</string>
+    <string name="errorCta">El numero de cuenta debe tener 10 digitos</string>
+    <string name="nomb">El nombre del alumno es \</string>
+    <string name="cta">; y su numero de cuenta es \</string>
+</resources>
