@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">List View</string>
+    <string name="titulo">Titulo \</string>
+    <string name="tipo">Tipo \</string>
+    <string name="fecha">Fecha \</string>
+    <string name="clic">Se dió clic en el elemento con ID = \</string>
+    <string name="clicTipo">Se hizo clic en el anime tipo \</string>
+</resources>
