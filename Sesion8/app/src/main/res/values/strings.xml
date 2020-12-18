@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Grid Web</string>
+    <string name="url_base">http://192.168.43.246/ServidorCM/</string>
+    <string name="errorConexion">Conexión fallida</string>
+</resources>

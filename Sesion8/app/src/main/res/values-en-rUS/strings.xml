@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grid Web</string>
+    <string name="errorConexion">Falied Connection</string>
+    <string name="url_base">http://10.0.2.2/ServidorCM/</string>
+</resources>
