@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">iReader QR</string>
+    <string name="permiso">Permiso requerido</string>
+    <string name="mensaje">Senecesita acceder a la camara para leer codigos QR</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnRechazar">Cancelar</string>
+    <string name="msjToast">"El Permiso de camara no se ha concedido</string>
+    <string name="error">Error</string>
+    <string name="errorUrl">El QR no es valido para la aplicación</string>
+</resources>
