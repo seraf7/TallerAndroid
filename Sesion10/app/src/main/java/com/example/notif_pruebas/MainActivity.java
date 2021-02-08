@@ -3,6 +3,8 @@ package com.example.notif_pruebas;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -47,6 +49,21 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("TOKEN_APP", "Token generado: " + token);
             }
         });
+
+        //Bundle para recibir informacion de una notificacion
+        Bundle bundle2 = new Bundle();
+        bundle2 = getIntent().getExtras();
+
+        if(bundle2 != null){
+            String appPackage = bundle2.getString("appPackage", "");
+            int irApp = Integer.valueOf(bundle2.getString("irApp", "0"));
+
+            if(irApp == 1 && !appPackage.isEmpty()){
+                //Abre la tienda con el URL de aplicacion indicado
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackage)));
+                finish();
+            }
+        }
     }
 
     public void clic(View view) {
